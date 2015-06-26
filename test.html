@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="Cache/Cache.js"></script>
+		<script src="Cache/fCache.js"></script>
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+	</head>
+<body>
+<div>
+	<header>
+		<nav class="top-bar" data-topbar role="navigation">
+		  <ul class="title-area">
+			<li class="name">
+			  <h1><a href="http://ahmedsaoud31.github.io">Home</a></h1>
+			</li>
+			 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+		  </ul>
+		  <ul class="title-area right">
+			<li class="name">
+			  <h1><a href="http://ahmedsaoud31.github.io">الرئيسة</a></h1>
+			</li>
+			 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+		  </ul>
+
+		  <section class="top-bar-section">
+
+			<!-- Left Nav Section -->
+			<ul class="left">
+			  <li><a href="#">fCache on Github</a></li>
+			</ul>
+			<ul class="left">
+			  <li><a href="#">Download</a></li>
+			</ul>
+			<ul class="right">
+			  <li><a href="#">المكتبة على جيت أب</a></li>
+			</ul>
+			<ul class="right">
+			  <li><a href="#">تنزيل</a></li>
+			</ul>
+		  </section>
+		</nav>
+	</header>
+	<div id="details">
+		<div class="row">
+			<div class="large-6 columns">
+				<h1>fCache</h1>
+				<h5>library to cache form elements chooses and values on local storage by HTML5 local storage, fCache built on <a href="#">jsCache</a> library.</h5>
+				<div class="large-6 columns">
+				</div>
+			</div>
+			<div class="large-6 columns" dir="rtl">
+				<h1>fCache</h1>
+				<h5>مكتبة لتخزين قيم ومختارات عناصر النماذج في الذاكرة المحلية عبر إستخدام تقنية التخزين في الإصدار الخامس من اللغة الهيكلية HTML, وتم البناء على المكتبة <a href="#">jsCache</a> للتخزين المحلي.</h5>
+				<div class="large-6 columns">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row" id="main">
+		<div class="large-6 columns">
+			<div id="en">
+				<form id="enForm">
+				  <div class="row">
+					<div class="large-12 columns">
+					  <label>Title
+						<input type="text" placeholder="Title" />
+					  </label>
+					</div>
+				  </div>
+				  <div class="row">
+					<div class="large-4 columns">
+					  <label>First Name
+						<input type="text" placeholder="First Name" />
+					  </label>
+					</div>
+					<div class="large-4 columns">
+					  <label>Last Name
+						<input type="text" placeholder="Last Name" />
+					  </label>
+					</div>
+					<div class="large-4 columns">
+					  <label>Nick Name
+						<input type="text" placeholder="Nick Name" />
+					  </label>
+					</div>
+				  </div>
+				  <div class="row">
+					<div class="large-12 columns">
+					  <label>Select Your Country
+						<select>
+						  <option value="1">Egypt</option>
+						  <option value="2">UK</option>
+						  <option value="3">US</option>
+						  <option value="4">Germany</option>
+						</select>
+					  </label>
+					</div>
+				  </div>
+				  <div class="row">
+					<div class="large-6 columns">
+					  <label>Your Sex</label>
+					  <input type="radio" name="pokemon" value="male" id="pokemonRed"><label for="pokemonRed">male</label>
+					  <input type="radio" name="pokemon" value="female" id="pokemonBlue"><label for="pokemonBlue">female</label>
+					</div>
+					<div class="large-6 columns">
+					  <label>Favourites</label>
+					  <input id="checkbox1" type="checkbox"><label for="checkbox1">Reading</label>
+					  <input id="checkbox2" type="checkbox"><label for="checkbox2">Supermario :)</label>
+					</div>
+				  </div>
+				  <div class="row">
+					<div class="large-12 columns">
+					  <label>About You
+						<textarea placeholder="Tell us about you ;)"></textarea>
+					  </label>
+					</div>
+				  </div>
+				  <div class="row">
+					<div class="large-12 columns">
+						<input type="button" class="button postfix" value="clear">
+					</div>
+				  </div>
+				</form>
+			</div>
+		</div>
+		<div class="large-6 columns">
+			<div id="ar" lang="ar" dir="rtl">
+				<form id="arForm">
+				  <div class="row">
+					<div class="large-12 columns">
+					  <label>أكتب عنوانك
+						<input type="text" placeholder="العنوان بالكامل" />
+					  </label>
+					</div>
+				  </div>
+				  <div class="row">
+					<div class="large-4 columns">
+					  <label>اللقب
+						<input type="text" placeholder="اللقب" />
+					  </label>
+					</div>
+					<div class="large-4 columns">
+					  <label>الاسم الأخير
+						<input type="text" placeholder="الاسم الأخير" />
+					  </label>
+					</div>
+					<div class="large-4 columns">
+					  <label>الاسم الأول
+						<input type="text" placeholder="الاسم الأول" />
+					  </label>
+					</div>
+				  </div>
+				  <div class="row">
+					<div class="large-12 columns">
+					  <label>إختر بلدك
+						<select>
+						  <option value="1">مصر</option>
+						  <option value="2">السودان</option>
+						  <option value="3">الجزائر</option>
+						  <option value="4">المغرب</option>
+						</select>
+					  </label>
+					</div>
+				  </div>
+				  <div class="row">
+					<div class="large-6 columns">
+					  <label>ما هو جنسك</label>
+					  <input type="radio" name="sex" value="male"><label for="pokemonRed">ذكر</label>
+					  <input type="radio" name="sex" value="female"><label for="pokemonBlue">أنثى</label>
+					</div>
+					<div class="large-6 columns">
+					  <label>هواياتك</label>
+					  <input id="checkbox1" type="checkbox"><label for="checkbox1">السباحة</label>
+					  <input id="checkbox2" type="checkbox"><label for="checkbox2">ركوب الماعز :)</label>
+					</div>
+				  </div>
+				  <div class="row">
+					<div class="large-12 columns">
+					  <label>نبذه مختصرة عنك
+						<textarea placeholder="أكتب ما يحلو لك :)"></textarea>
+					  </label>
+					</div>
+				  </div>
+				  <div class="row">
+					<div class="large-12 columns">
+						<input type="button" class="button postfix" value="مسح">
+					</div>
+				  </div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer>
+	<h3>fCache</h3> 
+	<div>contact us: ahmedsaoud31@gmail.com</div> 
+	</footer>
+</div>
+<script>
+	var arForm = fCache('#arForm');
+	var enForm = fCache('#enForm');
+	document.querySelector('#arForm input[type=button]').onclick=function(){
+		arForm.clear();
+	};	
+	
+	document.querySelector('#enForm input[type=button]').onclick=function(){
+		enForm.clear();
+	};
+</script>
+</body>
+</html>

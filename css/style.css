@@ -1,0 +1,38 @@
+*{margin: 0; padding: 0;}
+body {
+	font-family: tahoma;
+}
+
+#ar{
+	font-family: tahoma;
+}
+#ar input[type=text],input[type=password],input[type=button]{
+	font-family: tahoma;
+	font-size: 16px;
+}
+#ar select{
+	background-position: left center;
+	font-family: tahoma;
+}
+#main{
+	width: 100%;
+}
+#details
+{
+	background-color: #2c3e50;
+	padding: 20px 50px 20px 50px;
+	margin: auto auto 30px auto;
+	color: #FFF;
+}
+#details h1, #details h5{
+	color: #FFF;
+}
+footer{
+	background-color: #333333;
+	min-height: 100px;
+	text-align: center;
+	color: #FFF;
+}
+footer h3{
+	color: #FFF;
+}
